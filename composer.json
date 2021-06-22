@@ -1,0 +1,13 @@
+{
+  "name": "creativestyle/downloadable-terms-and-conditions",
+  "description": "Allows customers download terms and conditions on the checkout page",
+  "type": "magento2-module",
+  "homepage": "https://creativestyle.de",
+  "license": "OSL-3.0",
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "MageSuite\\DownloadableTermsAndConditions\\": ""
+    }
+  }
+}
